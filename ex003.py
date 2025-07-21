@@ -1,7 +1,7 @@
 import random
 
-def sortear_ingresso():
+def sorteio_numero():
     return random.randint(1, 100)
 
-numero_sorteado = sortear_ingresso()
+numero_sorteado = sorteio_numero()
 print(f"O número sorteado é o {numero_sorteado}.")
